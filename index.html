@@ -1,0 +1,1084 @@
+
+<!DOCTYPE html>
+<html lang="tw" class="not_scroll">
+
+<head>
+    <meta charset="utf-8">
+    <title>AI Avatar - 多德仕科技有限公司 </title>
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+    <meta property="og:title" content="AI Avatar - 多德仕科技有限公司">
+    <meta property="og:description" content="">
+    <link rel="icon" href="images/dortex-kc/favicon.ico" type="image/x-icon" />
+    <!-- apple-touch-icon -->
+    <link rel="apple-touch-icon" sizes="152x152" href="images/dortex-kc/touch_icon_152.jpg" />
+    <link rel="apple-touch-icon" sizes="120x120" href="images/dortex-kc/touch_icon_120.jpg" />
+    <link rel="apple-touch-icon" sizes="76x76" href="images/dortex-kc/touch_icon_76.jpg" />
+    <link rel="apple-touch-icon" href="images/dortex-kc/touch_icon_60.jpg" />
+    <meta property="og:type" content="website">
+    <link rel="stylesheet" type="text/css" href="API/css/scss.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+   <!--新增AI影片首頁專用部分-->
+    <div id="draggable_in">
+        <div id='sjvid_box_in' class='sjvid_box_in' data-opvideo='cmn-TW:1KysDScb0rk,' data-opimg='cmn-TW:API/face/face_02.jpg,'>
+            <div class='sjvid_avater_box'>
+                <p class='sjvid_avater'>
+                    <span class='close_chat'><img src='API/icon/close_icon_ai.png' alt></span>
+                    <span class='in_text'>歡迎來到我們的AI智慧工業頻道！單擊開始進行簡短介紹。<span class='text_date_play'>開始</span></span>
+                    <span id='text_tw' class='date_lang'>歡迎來到 AI智能頻道！您可以點擊圖片放大，並與AI圖標互動以瀏覽更詳細的公司與產品資訊，或者您可以查看左側選單以獲得更多內容。</span>
+                </p>
+            </div>
+            <div class='player_box_in' style='background-image: url()'><video id='player_in_out' autoplay='true' muted playsinline><source src='' type='video/mp4'></video></div>
+            <div class='player_now_in'></div>
+            <div class='loader'><span></span><span></span><span></span><span></span></div>
+            <p class='chat_nav_in'><img class='chat_off' src='API/icon/chat_off.png' alt><img class='chat_on' src='API/icon/chat_on.png' alt></p>
+            <div class='sj_right_nav_in'>
+                <p class='sound_in'><img class='sound_off' src='API/icon/sound_off.png' alt><img class='sound_on' src='API/icon/sound_on.png' alt></p>
+                <p class='close_play_in'><img src='API/icon/close_icon.png' alt></p>
+            </div>
+            <div class='vid_nav'>
+                <p class='re_play_in'><img src='API/icon/re_play_icon_b.png' alt></p>
+                <div class='sj_lang_nav_in'>
+                    <p class='flag_nav_in' data-id='us'><img src='API/flag/cmn-TW.png' alt><span>tw</span></p><a class='lang_mmen' href='javascript:;' title=''><span></span></a></div>
+                <div class='sj_bottom_nav_in'>
+                    <p class='sj_lang_close_in'><img src='API/icon/close_icon.png' alt></p>
+                    <p>AI Language</p>
+                    <div class='overflow_box'>
+<!--                        <div class='bottom_nav_box_in now_lang_in' id='in_en-US'><a class='flag_lang_in' href='javascript:;' title='us' data-url=''><img src='API/flag/es-US.png' alt><p>US</p></a></div>-->
+                        <div class='bottom_nav_box_in' id='in_cmn-TW'><a class='flag_lang_in' href='javascript:;' title='tw' data-url=''><img src='API/flag/cmn-TW.png' alt><p>TW</p></a></div>
+                    </div>
+                </div>
+            </div>
+            <div class='ai_progress_in' onmouseup='AIplayVideo_in()'>
+                <div class='progress_bg_in'>
+                    <div class='progress_bar_in'></div>
+                </div>
+                <div class='progress_btn_in'></div>
+            </div>
+        </div>
+    </div>
+    <div id="avater" class="avater_flipbook">
+        <!--AI資料區塊-->
+        <div class="avater_date_box full" id="avater_date_box">
+            <div class="draggable_date_box">
+                <div class="in_avater">
+                    <div class="icon fullscreen full"></div>
+                    <div class="close_avater_date"><img src="API/icon/close_icon_ai.png" alt></div>
+                    <div class="img_avater_box">
+                        <!--一組資料-->
+                        <!--無刷馬達-->
+                        <div id="avater_p1-1">
+                            <p class="avater_date_title">大風扇葉片直驅無刷馬達</p>
+<!--
+                            <div class="avater_date_nav">
+                                <a class="open_img active" href="javascript:;">圖片</a>
+                            </div>
+                            <div class="avater_date_img">
+                                <div class="avater_date_th"><span class="now_dot">0</span><span>/</span><span class="all_dot">0</span></div>
+                                <a class="control_prev" href="javascript:;"></a>
+                                <div class="avater_slider_box" data-th="0" data-proportion="0">
+                                    <div class="avater_slider_in" data-time="0">
+                                        <span>
+                                            <img src="API/_temp/flibook/dortex-kc/1/img1-1.jpg" alt>
+                                        </span>
+                                    </div>
+                                    
+                                </div>
+                                <a class="control_next" href="javascript:;"></a>
+                            </div>
+                            <div class="avater_date_dot">
+                            </div>
+-->
+                            <div class="pdt_ai_bottom">
+                                <p>
+                                    大風扇葉片直驅無刷馬達 AC220V 700W 12P RPM750 搭配三相正弦驅動器，實現安靜、無噪音、無振動之運轉。比交流感應馬達至少省電50%。
+                                </p>
+                            </div>
+                            
+                        </div>
+<!--
+                        <div id="avater_p1-2">
+                            <p class="avater_date_title">運用範圍</p>
+                            <div class="avater_date_nav">
+                                <a class="open_img active" href="javascript:;">圖片</a>
+                            </div>
+                            <div class="avater_date_img">
+                                <div class="avater_date_th"><span class="now_dot">0</span><span>/</span><span class="all_dot">0</span></div>
+                                <a class="control_prev" href="javascript:;"></a>
+                                <div class="avater_slider_box" data-th="0" data-proportion="0">
+                                    <div class="avater_slider_in" data-time="0">
+                                        <span>
+                                            <img src="API/_temp/flibook/dortex-kc/1/img1-2.jpg" alt>
+                                        </span>
+                                         <a class="play_video" href="javascript:;" onclick="avater_playt(this)" data-vid="IG8EWqdCPyU"><img src="API/icon/video_icon.png" alt></a>
+                                    </div>
+                                    
+                                </div>
+                                <a class="control_next" href="javascript:;"></a>
+                            </div>
+                            <div class="avater_date_dot">
+                            </div>
+                            <div class="pdt_ai_bottom">
+                                <p>
+                                    運用範圍
+                                </p>
+                            </div>
+                            
+                        </div>
+-->
+                        <div id="avater_p1-2">
+                            <p class="avater_date_title">運用範圍</p>
+                            <div class="avater_date_nav">
+                                <a class="open_img active" href="javascript:;">圖片</a>
+                            </div>
+                            <div class="avater_date_img only_video">
+                                <a class="play_video" href="javascript:;" onclick="avater_playt(this)" data-vid="IG8EWqdCPyU"><img src="API/icon/video_icon.png" alt></a>
+                                <!--影片ID後方加入'?t=時間'可控制影片開始播放的時間點-->
+                            </div>
+                            <div class="pdt_ai_bottom">
+                            </div>
+                            
+                        </div>
+                        <!--自動門用-->
+                        <div id="avater_p2-1">
+                            <p class="avater_date_title">平開自動門機專用馬達機組</p>
+<!--
+                            <div class="avater_date_nav">
+                                <a class="open_img active" href="javascript:;">圖片</a>
+                            </div>
+                            <div class="avater_date_img">
+                                <div class="avater_date_th"><span class="now_dot">0</span><span>/</span><span class="all_dot">0</span></div>
+                                <a class="control_prev" href="javascript:;"></a>
+                                <div class="avater_slider_box" data-th="0" data-proportion="0">
+                                    <div class="avater_slider_in" data-time="0">
+                                        <span>
+                                            <img src="API/_temp/flibook/dortex-kc/2/img2-1.jpg" alt>
+                                        </span>
+                                    </div>
+                                    
+                                </div>
+                                <a class="control_next" href="javascript:;"></a>
+                            </div>
+                            <div class="avater_date_dot">
+                            </div>
+-->
+                            <div class="pdt_ai_bottom">
+                                <p>
+                                    DC14V、24V輸入 60W、80W ，RPM 1200 減速比 1:11-1:20 根據需求可搭配多德仕簡易型驅動器或多功能型驅動器。
+                                </p>
+                            </div>
+                            
+                        </div>
+                        <div id="avater_p2-2">
+                            <p class="avater_date_title">運用範圍</p>
+<!--
+                            <div class="avater_date_nav">
+                                <a class="open_img active" href="javascript:;">圖片</a>
+                            </div>
+                            <div class="avater_date_img">
+                                <div class="avater_date_th"><span class="now_dot">0</span><span>/</span><span class="all_dot">0</span></div>
+                                <a class="control_prev" href="javascript:;"></a>
+                                <div class="avater_slider_box" data-th="0" data-proportion="0">
+                                    <div class="avater_slider_in" data-time="0">
+                                        <span>
+                                            <img src="API/_temp/flibook/dortex-kc/2/img2-2.jpg" alt>
+                                        </span>
+                                    </div>
+                                    
+                                </div>
+                                <a class="control_next" href="javascript:;"></a>
+                            </div>
+                            <div class="avater_date_dot">
+                            </div>
+-->
+                            <div class="pdt_ai_bottom">
+                                <p>
+                                    運用範圍
+                                </p>
+                            </div>
+                            
+                        </div>
+                        
+                        
+                        <!--自動門用-->
+                        <div id="avater_p3-1">
+                            <p class="avater_date_title">直流變頻排油煙機專用直流無刷馬達</p>
+                            <div class="avater_date_nav">
+                                <a class="open_img active" href="javascript:;">圖片</a>
+                            </div>
+                            <div class="avater_date_img">
+                                <div class="avater_date_th"><span class="now_dot">0</span><span>/</span><span class="all_dot">0</span></div>
+                                <a class="control_prev" href="javascript:;"></a>
+                                <div class="avater_slider_box" data-th="0" data-proportion="0">
+                                    <div class="avater_slider_in" data-time="0">
+                                        <span>
+                                            <img src="API/_temp/flibook/dortex-kc/3/img3-1.jpg" alt>
+                                        </span>
+                                    </div>
+                                    
+                                </div>
+                                <a class="control_next" href="javascript:;"></a>
+                            </div>
+                            <div class="avater_date_dot">
+                            </div>
+                            <div class="pdt_ai_bottom">
+                                <p>
+                                    直流變頻排油煙機專用直流無刷馬達內建三相弦波驅動器24V160W/2300RPM僅需兩條電源線與一條速控線即完整的直流直流變頻排油煙機系統。
+                                </p>
+                            </div>
+                            
+                        </div>
+<!--
+                        <div id="avater_p3-2">
+                            <p class="avater_date_title">運用範圍</p>
+                            <div class="avater_date_nav">
+                                <a class="open_img active" href="javascript:;">圖片</a>
+                            </div>
+                            <div class="avater_date_img">
+                                <div class="avater_date_th"><span class="now_dot">0</span><span>/</span><span class="all_dot">0</span></div>
+                                <a class="control_prev" href="javascript:;"></a>
+                                <div class="avater_slider_box" data-th="0" data-proportion="0">
+                                    <div class="avater_slider_in" data-time="0">
+                                        <span>
+                                            <img src="API/_temp/flibook/dortex-kc/3/img3-2.jpg" alt>
+                                        </span>
+                                        <a class="play_video" href="javascript:;" onclick="avater_playt(this)" data-vid="42SGA8nHMm4"><img src="API/icon/video_icon.png" alt></a>
+                                    </div>
+                                    
+                                </div>
+                                <a class="control_next" href="javascript:;"></a>
+                            </div>
+                            <div class="avater_date_dot">
+                            </div>
+                            <div class="pdt_ai_bottom">
+                                <p>
+                                    運用範圍
+                                </p>
+                            </div>
+                            
+                        </div>
+-->
+                        <div id="avater_p3-2">
+                            <p class="avater_date_title">運用範圍</p>
+                            <div class="avater_date_nav">
+                                <a class="open_img active" href="javascript:;">圖片</a>
+                            </div>
+                            <div class="avater_date_img only_video">
+                                <a class="play_video" href="javascript:;" onclick="avater_playt(this)" data-vid="42SGA8nHMm4"><img src="API/icon/video_icon.png" alt></a>
+                            </div>
+                            <div class="pdt_ai_bottom">
+                            </div>
+                            
+                        </div>
+                        
+                         <!--紡織機械用-->
+                        <div id="avater_p4-1">
+                            <p class="avater_date_title">無刷馬達</p>
+                            <div class="avater_date_nav">
+                                <a class="open_img active" href="javascript:;">圖片</a>
+                            </div>
+                            <div class="avater_date_img">
+                                <div class="avater_date_th"><span class="now_dot">0</span><span>/</span><span class="all_dot">0</span></div>
+                                <a class="control_prev" href="javascript:;"></a>
+                                <div class="avater_slider_box" data-th="0" data-proportion="0">
+                                    <div class="avater_slider_in" data-time="0">
+                                        <span>
+                                            <img src="API/_temp/flibook/dortex-kc/4/img4-1.jpg" alt>
+                                        </span>
+                                    </div>
+                                    
+                                </div>
+                                <a class="control_next" href="javascript:;"></a>
+                            </div>
+                            <div class="avater_date_dot">
+                            </div>
+                            <div class="pdt_ai_bottom">
+                                <p>
+                                    配合無刷馬達張力控制驅動器在設定張力下RPM可由500-3200自動調整。
+                                </p>
+                            </div>
+                            
+                        </div>
+                        <div id="avater_p4-2">
+                            <p class="avater_date_title">馬達本體</p>
+<!--
+                            <div class="avater_date_nav">
+                                <a class="open_img active" href="javascript:;">圖片</a>
+                            </div>
+                            <div class="avater_date_img">
+                                <div class="avater_date_th"><span class="now_dot">0</span><span>/</span><span class="all_dot">0</span></div>
+                                <a class="control_prev" href="javascript:;"></a>
+                                <div class="avater_slider_box" data-th="0" data-proportion="0">
+                                    <div class="avater_slider_in" data-time="0">
+                                        <span>
+                                            <img src="API/_temp/flibook/dortex-kc/4/img4-2.jpg" alt>
+                                        </span>
+                                        
+                                    </div>
+                                    
+                                </div>
+                                <a class="control_next" href="javascript:;"></a>
+                            </div>
+                            <div class="avater_date_dot">
+                            </div>
+-->
+                            <div class="pdt_ai_bottom">
+                                <p>
+                                    150W 8P RPM3600 運用範圍用於假撚紡紗機張力控制。
+                                </p>
+                            </div>
+                            
+                        </div>
+<!--
+                        <div id="avater_p4-3">
+                            <p class="avater_date_title">運用範圍</p>
+                            <div class="avater_date_nav">
+                                <a class="open_img active" href="javascript:;">圖片</a>
+                            </div>
+                            <div class="avater_date_img">
+                                <div class="avater_date_th"><span class="now_dot">0</span><span>/</span><span class="all_dot">0</span></div>
+                                <a class="control_prev" href="javascript:;"></a>
+                                <div class="avater_slider_box" data-th="0" data-proportion="0">
+                                    <div class="avater_slider_in" data-time="0">
+                                        <span>
+                                            <img src="API/_temp/flibook/dortex-kc/4/img4-3.jpg" alt>
+                                        </span>
+                                        <a class="play_video" href="javascript:;" onclick="avater_playt(this)" data-vid="UPvoHeQHR2k"><img src="API/icon/video_icon.png" alt></a>
+                                    </div>
+                                    
+                                </div>
+                                <a class="control_next" href="javascript:;"></a>
+                            </div>
+                            <div class="avater_date_dot">
+                            </div>
+                            <div class="pdt_ai_bottom">
+                                <p>
+                                    運用範圍
+                                </p>
+                            </div>
+                            
+                        </div>
+-->
+                        <div id="avater_p4-3">
+                            <p class="avater_date_title">運用範圍</p>
+                            <div class="avater_date_nav">
+                                <a class="open_img active" href="javascript:;">圖片</a>
+                            </div>
+                            <div class="avater_date_img only_video">
+                                <a class="play_video" href="javascript:;" onclick="avater_playt(this)" data-vid="UPvoHeQHR2k"><img src="API/icon/video_icon.png" alt></a>
+                            </div>
+                            <div class="pdt_ai_bottom">
+                            </div>
+                            
+                        </div>
+                        
+                        <div id="avater_p5-1">
+                            <p class="avater_date_title">馬達本體</p>
+<!--
+                            <div class="avater_date_nav">
+                                <a class="open_img active" href="javascript:;">圖片</a>
+                            </div>
+                            <div class="avater_date_img">
+                                <div class="avater_date_th"><span class="now_dot">0</span><span>/</span><span class="all_dot">0</span></div>
+                                <a class="control_prev" href="javascript:;"></a>
+                                <div class="avater_slider_box" data-th="0" data-proportion="0">
+                                    <div class="avater_slider_in" data-time="0">
+                                        <span>
+                                            <img src="API/_temp/flibook/dortex-kc/5/img5-1.jpg" alt>
+                                        </span>
+                                    </div>
+                                    
+                                </div>
+                                <a class="control_next" href="javascript:;"></a>
+                            </div>
+                            <div class="avater_date_dot">
+                            </div>
+-->
+                            <div class="pdt_ai_bottom">
+                                <p>
+                                    達本體：300W 8P RPM 3500 搭配多徳仕專用無刷伺服定位系統，合理減速比下，無需譯碼器ENCODE可實現0.1mm之反覆精度。
+                                </p>
+                            </div>
+                            
+                        </div>
+                        <div id="avater_p5-2">
+                            <p class="avater_date_title">定位電鎖</p>
+                            <div class="avater_date_nav">
+                                <a class="open_img active" href="javascript:;">圖片</a>
+                            </div>
+                            <div class="avater_date_img">
+                                <div class="avater_date_th"><span class="now_dot">0</span><span>/</span><span class="all_dot">0</span></div>
+                                <a class="control_prev" href="javascript:;"></a>
+                                <div class="avater_slider_box" data-th="0" data-proportion="0">
+                                    <div class="avater_slider_in" data-time="0">
+                                        <span>
+                                            <img src="API/_temp/flibook/dortex-kc/5/img5-2.jpg" alt>
+                                        </span>
+                                        
+                                    </div>
+                                    
+                                </div>
+                                <a class="control_next" href="javascript:;"></a>
+                            </div>
+                            <div class="avater_date_dot">
+                            </div>
+                            <div class="pdt_ai_bottom">
+                                <p>
+                                    定位電鎖：當馬達運行至座標定位時鎖定馬達軸心。
+                                </p>
+                            </div>
+                            
+                        </div>
+<!--
+                        <div id="avater_p5-3">
+                            <p class="avater_date_title">應用範圍</p>
+                            <div class="avater_date_nav">
+                                <a class="open_img active" href="javascript:;">圖片</a>
+                            </div>
+                            <div class="avater_date_img">
+                                <div class="avater_date_th"><span class="now_dot">0</span><span>/</span><span class="all_dot">0</span></div>
+                                <a class="control_prev" href="javascript:;"></a>
+                                <div class="avater_slider_box" data-th="0" data-proportion="0">
+                                    <div class="avater_slider_in" data-time="0">
+                                        <span>
+                                            <img src="API/_temp/flibook/dortex-kc/5/img5-3.jpg" alt>
+                                        </span>
+                                        <a class="play_video" href="javascript:;" onclick="avater_playt(this)" data-vid="XTaR7W-D1tQ"><img src="API/icon/video_icon.png" alt></a>
+                                    </div>
+                                    
+                                </div>
+                                <a class="control_next" href="javascript:;"></a>
+                            </div>
+                            <div class="avater_date_dot">
+                            </div>
+                            <div class="pdt_ai_bottom">
+                                <p>
+                                    應用範圍
+                                </p>
+                            </div>
+                            
+                        </div>
+-->
+                        <div id="avater_p5-3">
+                            <p class="avater_date_title">運用範圍</p>
+                            <div class="avater_date_nav">
+                                <a class="open_img active" href="javascript:;">圖片</a>
+                            </div>
+                            <div class="avater_date_img only_video">
+                                <a class="play_video" href="javascript:;" onclick="avater_playt(this)" data-vid="XTaR7W-D1tQ"><img src="API/icon/video_icon.png" alt></a>
+                            </div>
+                            <div class="pdt_ai_bottom">
+                            </div>
+                            
+                        </div>
+                        
+                        <!--一組資料-->
+                        <div id="avater_p0-1">
+                            <p class="avater_date_title">17㎥/min 渦輪級大吸力</p>
+                            <div class="avater_date_nav">
+                                <a class="open_img active" href="javascript:;">圖片</a>
+                            </div>
+                            <div class="avater_date_img">
+                                <div class="avater_date_th"><span class="now_dot">0</span><span>/</span><span class="all_dot">0</span></div>
+                                <a class="control_prev" href="javascript:;"></a>
+                                <div class="avater_slider_box" data-th="0" data-proportion="0">
+                                    <div class="avater_slider_in" data-time="0">
+                                        <span>
+                                            <img src="API/_temp/flibook/dortex-kc/img1.jpg" alt>
+                                        </span>
+                                    </div>
+                                    <div class="avater_slider_in" data-time="30">
+                                        <span>
+                                            <img src="API/_temp/flibook/dortex-kc/img2.jpg" alt>
+                                        </span>
+                                    </div>
+                                    <div class="avater_slider_in" data-time="60">
+                                        <span>
+                                            <img src="API/_temp/flibook/dortex-kc/img3.jpg" alt>
+                                        </span>
+                                    </div>
+                                </div>
+                                <a class="control_next" href="javascript:;"></a>
+                            </div>
+                            <div class="avater_date_dot">
+                                
+                            </div>
+                            <div class="pdt_ai_bottom">
+                                <b>吸力提升50%</b>
+                                <p>
+                                    全國首創電子驅動迴路內置無刷馬達內，大幅簡化全機配線並直接偵測馬達內部溫升與負載變化能最有效保證馬達和系統之安全。
+                                </p>
+                                <p>
+                                    離心式高抗溫耐濕塑鋼葉片以2300RPM高速旋轉形成渦輪高增壓氣旋，有效克服管線長度阻力，加速油煙排放。
+                                </p>
+                                <p>
+                                    大風輪進風口截面積達 201cm² 加大出風口截面積達 177cm²。
+                                </p>
+                            </div>
+<!--
+                            <div class="pdt_ai_bottom">
+                                <b>降噪40%</b>
+                                <p>
+                                    一體成型鋁合金外殼，減少運轉時的異音。
+                                </p>
+                                <p>
+                                    驅動器由微電腦晶片運算三相正弦驅動讓低速運轉完全無聲。
+                                </p>
+                                <p>
+                                    高速運轉時僅 80 dB，較傳統交流感應馬達機種降躁 40 % 以上。
+                                    （以檯面距離鼓風扇 65 公分所測得）
+                                </p>
+                            </div>
+                            <div class="pdt_ai_bottom">
+                                <b>省電60%</b>
+                                <p>
+                                    內建全國首創 DC24V 無刷直流變頻馬達。
+                                </p>
+                                <p>
+                                    搭載寬電壓開關式穩壓電源（AC100V ~ AC240V）。
+                                </p>
+                                <p>
+                                    全機最高出力時僅耗電 160W 相較市面號稱高速馬達之傳統 2 極交流馬達節能 60%
+                                    （一速可兼具室內換氣功能，24hr 運轉耗費約 1 元）
+                                </p>
+                            </div>
+-->
+                        </div>
+                        <!--一組資料-->
+
+
+                    </div>
+                    <div class="video_avater_box">
+                        <p class="avater_video_title"></p>
+                        <a class="open_img" href="javascript:;">圖片</a>
+                        <video id="player_avater" autoplay muted controls>
+                                <source src="" type="video/mp4">
+                        </video>
+                        <div class="video_ai_bottom"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--AI資料區塊-->
+        <!--翻書頁區塊-->
+        <div class="absolute_box">
+            <div class="flipbook_outbox" id="flipbook_outbox">
+                <!--工業風扇用-->
+                <div class="flipbook_slider now_flipbook" id="flipbook_p1">
+                    <div class="flipbook_page" data-th="1">
+                        <img src="API/_temp/flibook/dortex-kc/tw/01-1_AC.jpg" alt="" usemap="#workmap_1-1" width="100%" height="100%">
+                        <map name="workmap_1-1">
+                            
+                        </map>
+                        <div class="active_point"></div>
+                    </div>
+                    <div class="flipbook_page" data-th="2">
+                        <img src="API/_temp/flibook/dortex-kc/tw/01-2_AC.jpg" alt="" usemap="#workmap_1-2" width="100%" height="100%">
+                        <map name="workmap_1-2">
+                            <area class="area_point open_avater_date" id="flipbook_p1-1" data-id="avater_p1-1" shape="rect" onclick="addvid(this)" data-vid='cmn-TW:ImjcHZUaA8w,' data-img="cmn-TW:API/face/face_02.jpg," data-coords="168,569,288,686" coords="" alt="">
+                            <area class="area_point open_avater_date only_video" id="flipbook_p1-2" data-id="avater_p1-2" shape="rect"  data-coords="468,1226,588,1343" onclick="avater_playt(this)"  coords="" alt="" >
+                           
+                        </map>
+                        <div class="active_point"></div>
+                    </div>
+
+                </div>
+                <!--自動門用-->
+                <div class="flipbook_slider " id="flipbook_p2">
+                    <div class="flipbook_page" data-th="1">
+                        <img src="API/_temp/flibook/dortex-kc/tw/02-1_AC.jpg" alt="" usemap="#workmap_2-1" width="100%" height="100%">
+                        <map name="workmap_2-1">
+                            <area class="area_point open_avater_date" id="flipbook_p2-1" data-id="avater_p2-1" shape="rect" onclick="addvid(this)" data-vid='cmn-TW:WBsRREobLGs,' data-img="cmn-TW:API/face/face_02.jpg," data-coords="635,1170,729,1265" coords="" alt="">
+                        </map>
+                        <div class="active_point"></div>
+                    </div>
+                    <div class="flipbook_page" data-th="2">
+                        <img src="API/_temp/flibook/dortex-kc/tw/02-2_AC.jpg" alt="" usemap="#workmap_2-2" width="100%" height="100%">
+                        <map name="workmap_2-2">
+                            <area class="area_point open_avater_date" id="flipbook_p2-2" data-id="avater_p2-2" shape="rect" onclick="no_addvid(this)" data-vid='cmn-TW:XXXXX,' data-img="cmn-TW:API/face/face_02.jpg," data-coords="482,1215,575,1311" coords="" alt="">
+                           
+                        </map>
+                        <div class="active_point"></div>
+                    </div>
+
+                </div>
+                <!--無刷馬達 -->
+                <div class="flipbook_slider " id="flipbook_p3">
+                    <div class="flipbook_page" data-th="1">
+                        <img src="API/_temp/flibook/dortex-kc/tw/03-1_AC.jpg" alt="" usemap="#workmap_3-1" width="100%" height="100%">
+                        <map name="workmap_3-1">
+                            <area class="area_point open_avater_date" id="flipbook_p3-1" data-id="avater_p3-1" shape="rect" onclick="addvid(this)" data-vid='cmn-TW:ouTcYZbqEu8,' data-img="cmn-TW:API/face/face_02.jpg," data-coords="488,1010,586,1104" coords="" alt="">
+                        </map>
+                        <div class="active_point"></div>
+                    </div>
+                    <div class="flipbook_page" data-th="2">
+                        <img src="API/_temp/flibook/dortex-kc/tw/03-2_AC.jpg" alt="" usemap="#workmap_3-2" width="100%" height="100%">
+                        <map name="workmap_3-2">
+                            <area class="area_point open_avater_date only_video" id="flipbook_p3-2" data-id="avater_p3-2" shape="rect"   data-coords="480,1238,576,1334" onclick="avater_playt(this)" coords="" alt="">
+                           
+                        </map>
+                        <div class="active_point"></div>
+                    </div>
+
+                </div>
+                <!--紡織機械用 -->
+                <div class="flipbook_slider " id="flipbook_p4">
+                    <div class="flipbook_page" data-th="1">
+                        <img src="API/_temp/flibook/dortex-kc/tw/04-1_AC.jpg" alt="" usemap="#workmap_4-1" width="100%" height="100%">
+                        <map name="workmap_4-1">
+                            <area class="area_point open_avater_date" id="flipbook_p4-1" data-id="avater_p4-1" shape="rect" onclick="addvid(this)" data-vid='cmn-TW:3o-HONGG1bI,' data-img="cmn-TW:API/face/face_02.jpg," data-coords="99,765,192,859" coords="" alt="">
+                            <area class="area_point open_avater_date" id="flipbook_p4-2" data-id="avater_p4-2" shape="rect" onclick="addvid(this)" data-vid='cmn-TW:wD5mD4zWtxo,' data-img="cmn-TW:API/face/face_02.jpg," data-coords="650,1129,744,1225" coords="" alt="">
+                        </map>
+                        <div class="active_point"></div>
+                    </div>
+                    <div class="flipbook_page" data-th="2">
+                        <img src="API/_temp/flibook/dortex-kc/tw/04-2_AC.jpg" alt="" usemap="#workmap_4-2" width="100%" height="100%">
+                        <map name="workmap_4-2">
+                            
+                            
+                            <area class="area_point open_avater_date only_video" id="flipbook_p4-3" data-id="avater_p4-3" shape="rect"  data-coords="479,1235,575,1330" onclick="avater_playt(this)"  coords="" alt="" >
+                        </map>
+                        <div class="active_point"></div>
+                    </div>
+
+                </div>
+                <!--線性滑軌用 -->
+                <div class="flipbook_slider " id="flipbook_p5">
+                    <div class="flipbook_page" data-th="1">
+                        <img src="API/_temp/flibook/dortex-kc/tw/05-1_AC.jpg" alt="" usemap="#workmap_5-1" width="100%" height="100%">
+                        <map name="workmap_5-1">
+                            <area class="area_point open_avater_date" id="flipbook_p5-1" data-id="avater_p5-1" shape="rect" onclick="addvid(this)" data-vid='cmn-TW:gavrnAnyYnM,' data-img="cmn-TW:API/face/face_02.jpg," data-coords="181,1081,275,1177" coords="" alt="">
+                            <!-- <area class="area_point open_avater_date" id="flipbook_p5-2" data-id="avater_p5-2" shape="rect" onclick="addvid(this)" data-vid='cmn-TW:OueaiavZYOo,' data-img="cmn-TW:API/face/face_02.jpg," data-coords="872,1083,965,1177" coords="" alt=""> -->
+                            <area class="area_point open_avater_date" id="flipbook_p5-2" data-id="avater_p5-2" shape="rect" onclick="addvid(this)" data-vid='cmn-TW:hMYl6HGVS-c,' data-img="cmn-TW:API/face/face_02.jpg," data-coords="872,1083,965,1177" coords="" alt="">
+                        </map>
+                        <div class="active_point"></div>
+                    </div>
+                    <div class="flipbook_page" data-th="2">
+                        <img src="API/_temp/flibook/dortex-kc/tw/05-2_AC.jpg" alt="" usemap="#workmap_5-2" width="100%" height="100%">
+                        <map name="workmap_5-2">
+                            
+                           <area class="area_point open_avater_date only_video" id="flipbook_p5-3" data-id="avater_p5-3" shape="rect"  data-coords="482,1235,576,1331" onclick="avater_playt(this)"  coords="" alt="" >
+                        </map>
+                        <div class="active_point"></div>
+                    </div>
+
+                </div>
+                <!--OLD-->
+                <div class="flipbook_slider" id="flipbook_p0">
+                    <div class="flipbook_page" data-th="1">
+                        <img src="API/_temp/flibook/dortex-kc/tw/00-1_AC.jpg" alt="" usemap="#workmap_0-1" width="100%" height="100%">
+                        <map name="workmap_0-1">
+                            
+                        </map>
+                        <div class="active_point"></div>
+                    </div>
+                    <div class="flipbook_page" data-th="2">
+                        <img src="API/_temp/flibook/dortex-kc/tw/00-2_AC.jpg" alt="" usemap="#workmap_0-2" width="100%" height="100%">
+                        <map name="workmap_0-2">
+                            <area class="area_point open_avater_date" id="flipbook_p0-1" data-id="avater_p0-1" shape="rect" onclick="addvid(this)" data-vid='cmn-TW:pKUPGTU8_KQ,en-US:n9R6M3_X_xM,' data-img="cmn-TW:API/face/face_02.jpg,en-US:API/face/face_02.jpg," data-coords="355,378,481,502" coords="" alt="">
+                           
+                        </map>
+                        <div class="active_point"></div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+        <!--翻書頁區塊-->
+        <!--翻書頁下方案鈕-->
+        <div class="avater_bottom_nav">
+            <a class="back_nav" href="javascript:;">All Products</a>
+
+            <p cLass="avater_flipbook_dot" style="opacity: 0;">
+                <!-- <span class="first_dot">Page</span> -->
+                <!--英文-->
+                <span class="now_flipbook_dot">1</span>
+                <span class="center_dot">/</span>
+                <span class="all_flipbook_dot">1</span>
+                <span class="last_dot">頁</span>
+                <!--中文-->
+            </p>
+        </div>
+        <!--翻書頁下方案鈕-->
+        <!--翻書頁左側選單區塊-->
+        <div class="flipbook_left_nav" onmouseover="left_nav_in(this)" onmouseout="left_nav_out(this)">
+            <p class="nav_tag"><img src="images/right.png" alt></p>
+            <div class="no_submenu">
+                <div class="flipbook_type_title">
+                    <div class="flipbook_logo">
+                        <img class="logo_type_white" src="images/dortex-kc/logo_color.png">
+                        <img class="logo_type_black" src="images/dortex-kc/logo.png">
+                        <img class="logo_type_blue" src="images/dortex-kc/logo.png">
+                    </div>
+                    <p>產品</p>
+                </div>
+                <div class="flipbook_type_date">
+                   <!--工業風扇用-->
+                    <div class="flipbook_title" onclick="flipbook_title(this)" data-flipbook="#flipbook_p1">
+                        <img class="title_img" src="API/_temp/flibook/dortex-kc/工業風扇用.jpg">
+                        <p>工業風扇用<br>無刷馬達<span><img src="images/arrow_down.png" alt></span></p>
+                    </div>
+                    <div class="flipbook_submenu">
+                        <div class="flipbook_in_top">
+                            <p>AI導覽解說</p>
+                        </div>
+                        <p class="flipbook_avater" id="nav_avater_p1-1" data-id="#flipbook_p1-1" onclick="flipbook_avater(this)">大風扇葉片直驅無刷馬達</p>
+                        <p class="flipbook_avater" id="nav_avater_p1-2" data-id="#flipbook_p1-2" onclick="flipbook_avater(this)">運用範圍</p>
+
+                    </div>
+                    <!--自動門用-->
+                    <div class="flipbook_title" onclick="flipbook_title(this)" data-flipbook="#flipbook_p2">
+                        <img class="title_img" src="API/_temp/flibook/dortex-kc/自動門用.jpg">
+                        <p>自動門用<br>無刷馬達<span><img src="images/arrow_down.png" alt></span></p>
+                    </div>
+                    <div class="flipbook_submenu">
+                        <div class="flipbook_in_top">
+                            <p>AI導覽解說</p>
+                        </div>
+                        <p class="flipbook_avater" id="nav_avater_p2-1" data-id="#flipbook_p2-1" onclick="flipbook_avater(this)">平開自動門機專用馬達機組</p>
+                        <p class="flipbook_avater" id="nav_avater_p2-2" data-id="#flipbook_p2-2" onclick="flipbook_avater(this)">運用範圍</p>
+
+                    </div>
+                    <!--抽油煙機用-->
+                    <div class="flipbook_title" onclick="flipbook_title(this)" data-flipbook="#flipbook_p3">
+                        <img class="title_img" src="API/_temp/flibook/dortex-kc/抽油煙機用.jpg">
+                        <p>抽油煙機用<br>無刷馬達<span><img src="images/arrow_down.png" alt></span></p>
+                    </div>
+                    <div class="flipbook_submenu">
+                        <div class="flipbook_in_top">
+                            <p>AI導覽解說</p>
+                        </div>
+                        <p class="flipbook_avater" id="nav_avater_p3-1" data-id="#flipbook_p3-1" onclick="flipbook_avater(this)">直流變頻排油煙機專用直流無刷馬達</p>
+                        <p class="flipbook_avater" id="nav_avater_p3-2" data-id="#flipbook_p3-2" onclick="flipbook_avater(this)">運用範圍</p>
+
+                    </div>
+                    <!--紡織機械用-->
+                    <div class="flipbook_title" onclick="flipbook_title(this)" data-flipbook="#flipbook_p4">
+                        <img class="title_img" src="API/_temp/flibook/dortex-kc/紡織機械用.jpg">
+                        <p>紡織機械用<br>無刷馬達<span><img src="images/arrow_down.png" alt></span></p>
+                    </div>
+                    <div class="flipbook_submenu">
+                        <div class="flipbook_in_top">
+                            <p>AI導覽解說</p>
+                        </div>
+                        <p class="flipbook_avater" id="nav_avater_p4-1" data-id="#flipbook_p4-1" onclick="flipbook_avater(this)">無刷馬達</p>
+                        <p class="flipbook_avater" id="nav_avater_p4-2" data-id="#flipbook_p4-2" onclick="flipbook_avater(this)">馬達本體</p>
+                        <p class="flipbook_avater" id="nav_avater_p4-3" data-id="#flipbook_p4-3" onclick="flipbook_avater(this)">運用範圍</p>
+
+                    </div>
+                    <!--線性滑軌用-->
+                    <div class="flipbook_title" onclick="flipbook_title(this)" data-flipbook="#flipbook_p5">
+                        <img class="title_img" src="API/_temp/flibook/dortex-kc/線性滑軌用.jpg">
+                        <p>線性滑軌用<br>無刷馬達<span><img src="images/arrow_down.png" alt></span></p>
+                    </div>
+                    <div class="flipbook_submenu">
+                        <div class="flipbook_in_top">
+                            <p>AI導覽解說</p>
+                        </div>
+                        <p class="flipbook_avater" id="nav_avater_p5-1" data-id="#flipbook_p5-1" onclick="flipbook_avater(this)">馬達本體</p>
+                        <p class="flipbook_avater" id="nav_avater_p5-2" data-id="#flipbook_p5-2" onclick="flipbook_avater(this)">定位電鎖</p>
+                        <p class="flipbook_avater" id="nav_avater_p5-3" data-id="#flipbook_p5-3" onclick="flipbook_avater(this)">應用範圍</p>
+
+                    </div>
+                    <!--OLD-->
+                    <div class="flipbook_title" onclick="flipbook_title(this)" data-flipbook="#flipbook_p0">
+                        <img class="title_img" src="API/_temp/flibook/dortex-kc/OLD.jpg">
+                        <p>直流變頻<br>超強吸力鼓風扇<span><img src="images/arrow_down.png" alt></span></p>
+                    </div>
+                    <div class="flipbook_submenu">
+                        <div class="flipbook_in_top">
+                            <p>AI導覽解說</p>
+                        </div>
+                        <p class="flipbook_avater" id="nav_avater_p0-1" data-id="#flipbook_p0-1" onclick="flipbook_avater(this)">17㎥/min 超強吸力鼓風扇</p>
+
+                    </div>
+                    <!--第二本-->
+                    <!--
+                    <div class="flipbook_title" onclick="flipbook_title(this)" data-flipbook="#flipbook_p2">
+                        <img class="title_img" src="API/_temp/flibook/dortex-kc/list2.jpg">
+                        <p>特殊夾頭<span><img src="images/arrow_down.png" alt></span></p>
+                    </div>
+                    <div class="flipbook_submenu">
+                        <div class="flipbook_in_top">
+                            <p>AI導覽解說</p>
+                        </div>
+                        <p class="flipbook_avater" id="nav_avater_p2-1" data-id="#flipbook_p2-1" onclick="flipbook_avater(this)">特殊夾頭資訊介紹</p>
+                         <p class="flipbook_avater" id="nav_avater_p2-2" data-id="#flipbook_p2-2" onclick="flipbook_avater(this)">特殊夾頭資訊介紹</p> 
+                    </div>
+-->
+                </div>
+            </div>
+        </div>
+        <!--翻書頁左側選單區塊-->
+        <!--詢問函燈箱區塊-->
+        <div class="contact_avater_box avater_in_box">
+            <div class="contact_avater_in">
+                <a class="close_avater_box" href="javascript:;"><img src="API/icon/close_icon_ai.png" alt>
+                </a>
+                <div class="avater_form">
+                    <div class="contact_avater_top">
+                        <p class="bold">聯絡我們</p>
+                        <p>若有任何問題，請以填寫表單方式送出，我們將盡快於工作日由專人回覆您的問題</p>
+                    </div>
+                    <div id="i_sj_form_id"></div>
+                </div>
+                <script>
+                    var A = {
+                        a: function() {
+                            if (window.addEventListener) window.addEventListener("load", A.l, false);
+                            else if (window.attachEvent) window.attachEvent("onload", A.l);
+                            else A.o(A.l);
+                        },
+                        o: function(o) {
+                            var b = window.onload || function() {};
+                            window.onload = function() {
+                                b();
+                                o();
+                            };
+                        },
+                        l: function() {
+                            var o = document.createElement("script");
+                            o.src = "https://form.enquiry.com.tw/formjs_ssl/fMjQwMA==";
+                            document.getElementById('i_sj_form_id').appendChild(o);
+                        }
+                    };
+                    A.a(); //如有變數衝突 請自行修改
+                </script>
+            </div>
+        </div>
+        <!---->
+        <!--分享燈箱區塊-->
+        <div class="share_avater_box avater_in_box">
+            <div class="share_avater_in">
+                <a class="close_avater_box" href="javascript:;"><img src="API/icon/close_icon_ai.png" alt>
+                </a>
+                <div class="bottom_date">
+                    <p class="bold">Share</p>
+                    <a class="facebook" href="javascript:;" target="_blank" title="">Facebook</a>
+                    <a class="line" href="javascript:;" target="_blank" title="">Line</a>
+                    <a class="skype" href="javascript:;" target="_blank" title="">Skype</a>
+                    <a class="twitter" href="javascript:;" target="_blank" title="">Twitter</a>
+                    <a class="weibo" href="javascript:;" target="_blank" title="">Weibo</a>
+                    <a class="whatsapp" href="javascript:;" target="_blank" title="">Whatsapp</a>
+                    <div class="hr_list"><span>0</span><span>0</span><span>0</span></div>
+                    <div class="copy_box">
+                        <input id="linktext_in" type="text" readonly>
+                        <a class="copy" href="javascript:;" title="">複製連結</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="popup_avater">
+            <img src="API/icon/check_circle.png">
+            <p>已複製連結</p><span class="close_popup_avater"></span>
+        </div>
+        <!--分享區塊-->
+        <!--右上選單-->
+        <div class="avater_right_nav">
+            <div class="hide_right_nav">
+                <div>
+                    <div class="bottom_right_nav go_website">
+                        <a href="http://www.dortex-kc.com/" title="" target="_blank">
+                            <img class="title_img" src="images/OK.png">
+                        </a>
+                        <p>官方網站</p>
+                    </div>
+                </div>
+                <div>
+                    <div class="bottom_right_nav has_nav_submenu">
+                        <img class="title_img" src="images/language.png">
+                        <p>切換語系</p>
+                    </div>
+                    <div class="nav_submenu">
+                        <a class="active" href="index.html" title=""><img src="images/flag/cmn-TW.png"><span>繁體中文</span></a>
+<!--                        <a href="index_en.html" title=""><img src="images/flag/en-US.png"><span>English</span></a>-->
+                        
+
+                    </div>
+                </div>
+                <div>
+                    <div class="bottom_right_nav right_back_nav">
+                        <img class="title_img" src="images/format_list_bulleted.png">
+                        <p>分類列表</p>
+                    </div>
+                </div>
+                <div>
+                    <div class="bottom_right_nav has_nav_submenu">
+                        <img class="title_img" src="images/settings.png">
+                        <p>背景設定</p>
+                    </div>
+                    <div class="nav_submenu">
+                        <a class="color_type_blue" href="javascript:;" title=""><img src="images/blue_mode.png"><span>系統主題 (藍色)</span></a>
+                        <a class="color_type_white" href="javascript:;" title=""><img src="images/white_mode.png"><span>淺色主題</span></a>
+                        <a class="color_type_black active" href="javascript:;" title=""><img src="images/black_mode.png"><span>深色主題 (預設)</span></a>
+                        <a class="color_customize" href="javascript:;" title=""><img src="images/settings_color.png"><span>自訂</span></a>
+                    </div>
+                </div>
+                <div>
+                    <div class="bottom_right_nav contact_avater">
+                        <img class="title_img" src="API/icon/mail.png">
+                        <p>聯絡我們</p>
+                    </div>
+                </div>
+                <div>
+                    <div class="bottom_right_nav share_avater">
+                        <img class="title_img" src="API/icon/share.png">
+                        <p>分享連結</p>
+                    </div>
+                </div>
+                <!--
+                <div>
+                    <div class="bottom_right_nav">
+                        <a href="autoplay.html" title="">
+                           <img class="title_img" src="API/icon/play.png">
+                        </a>
+                        <p>Auto Play</p>
+                    </div>
+                </div>
+                -->
+                <div>
+                    <div class="bottom_right_nav zoom_avater" data-zoom="放大畫面" data-in="縮小圖片">
+                        <img class="title_img" src="API/icon/zoom.png">
+                        <img class="title_img zoom-in" src="API/icon/zoom-in.png">
+                        <p>放大畫面</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--右上選單-->
+        <!--自訂背景顏色-->
+        <div class="customize_avater_box avater_in_box">
+            <div class="customize_avater_in">
+                <a class="close_avater_box" href="javascript:;"><img src="API/icon/close_icon_ai.png" alt>
+                </a>
+                <div class="bottom_date">
+                    <p class="h10">自訂背景顏色</p>
+                    <div class="customize_color">
+                        <div class="row">
+                            <div class="color_in_box customize_active">
+                                <div data-color="#3B73D4" style="background: #3B73D4;">
+                                </div>
+                            </div>
+                            <div class="color_in_box">
+                                <div data-color="#0392D4" style="background: #0392D4;">
+                                </div>
+                            </div>
+                            <div class="color_in_box">
+                                <div data-color="#00A5BB" style="background: #00A5BB;">
+                                </div>
+                            </div>
+                            <div class="color_in_box">
+                                <div data-color="#354499" style="background: #354499;">
+                                </div>
+                            </div>
+                            <div class="color_in_box">
+                                <div data-color="#5D35A7" style="background: #5D35A7;">
+                                </div>
+                            </div>
+                            <div class="color_in_box">
+                                <div data-color="#8C249F" style="background: #8C249F;">
+                                </div>
+                            </div>
+                            <div class="color_in_box">
+                                <div data-color="#9684B8" style="background: #9684B8;">
+                                </div>
+                            </div>
+                            <div class="color_in_box">
+                                <div data-color="#008375" style="background: #008375;">
+                                </div>
+                            </div>
+                            <div class="color_in_box">
+                                <div data-color="#109755" style="background: #109755;">
+                                </div>
+                            </div>
+                            <div class="color_in_box">
+                                <div data-color="#78A940" style="background: #78A940;">
+                                </div>
+                            </div>
+                            <div class="color_in_box">
+                                <div data-color="#B6C433" style="background: #B6C433;">
+                                </div>
+                            </div>
+                            <div class="color_in_box">
+                                <div data-color="#DDCD32" style="background: #DDCD32;">
+                                </div>
+                            </div>
+                            <div class="color_in_box">
+                                <div data-color="#CD9701" style="background: #CD9701;">
+                                </div>
+                            </div>
+                            <div class="color_in_box">
+                                <div data-color="#D5A05E" style="background: #D5A05E;">
+                                </div>
+                            </div>
+                            <div class="color_in_box">
+                                <div data-color="#D57D00" style="background: #D57D00;">
+                                </div>
+                            </div>
+                            <div class="color_in_box">
+                                <div data-color="#D74A1D" style="background: #D74A1D;">
+                                </div>
+                            </div>
+                            <div class="color_in_box">
+                                <div data-color="#BE3A2E" style="background: #BE3A2E;">
+                                </div>
+                            </div>
+                            <div class="color_in_box">
+                                <div data-color="#CE1A57" style="background: #CE1A57;">
+                                </div>
+                            </div>
+                            <div class="color_in_box">
+                                <div data-color="#DE647B" style="background:#DE647B;">
+                                </div>
+                            </div>
+                            <div class="color_in_box">
+                                <div data-color="#E7B3B5" style="background:#E7B3B5;">
+                                </div>
+                            </div>
+                            <div class="color_in_box">
+                                <div data-color="#CFBA95" style="background:#CFBA95;">
+                                </div>
+                            </div>
+                            <div class="color_in_box">
+                                <div data-color="#6A4A3F" style="background:#6A4A3F;">
+                                </div>
+                            </div>
+                            <div class="color_in_box">
+                                <div data-color="#888888" style="background:#888888;">
+                                </div>
+                            </div>
+                            <div class="color_in_box">
+                                <div data-color="#546E7B" style="background:#546E7B;">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="customize_nav">
+                    <a class="customize_out" href="javascript:;">取消</a>
+                    <a class="customize_in" href="javascript:;">確認</a>
+                </div>
+            </div>
+        </div>
+        <!--自訂背景顏色-->
+    </div>
+    <!--外連對話框-->
+    <div class="link_date_box">
+        <div class="link_date_bg">
+            <div class="close_link_date"><img src="API/icon/close_icon_ai.png" alt=""></div>
+            <div class="in_date_box">
+            </div>
+        </div>
+    </div>
+    <!--外連對話框-->
+    <script src="js/plugin/jquery-3.4.1.min.js"></script>
+    <script src="API/video_flipbook.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
